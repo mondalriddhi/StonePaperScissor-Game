@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    text-align: center;
+    background-color: rgb(48, 53, 100);
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+}
+.choice {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.choice:hover {
+    background-color: rgb(48, 53, 100);
+}
+img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.msg-container {
+    margin-top: 2rem;
+}
+#msg {
+    text-align: center;
+    background-color: rgb(48, 53, 100);
+    font-size: 2rem;
+    display: inline;
+    border-radius: 8px;
+    padding: 1rem;
+    color: aliceblue;
+}
